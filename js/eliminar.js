@@ -17,7 +17,7 @@ function openDeleteForm(id, nombre) {
 
 async function eliminarJuego(id) {
     try {
-        const response = await fetch(`/games/${id}`, {
+        const response = await fetch(`https://apigame-6xpe.onrender.com/games/${id}`, {
             method: 'DELETE'
         });
 
