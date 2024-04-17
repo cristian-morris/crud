@@ -1,6 +1,6 @@
 async function obtenerJuegos() {
     try {
-        const response = await fetch('/games'); 
+        const response = await fetch('https://apigame-6xpe.onrender.com/games'); 
         const juegos = await response.json(); 
 
         // Construir la lista de juegos
