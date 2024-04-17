@@ -1,0 +1,67 @@
+/* Estilos para el contenido del modal */
+.modal-content {
+    background: linear-gradient(to right, #0f0f0f, #292929);
+    margin: 10% auto; 
+    padding: 10px; 
+    border: 2px solid #444;
+    width: 70%; 
+    max-width: 600px;
+    border-radius: 12px; 
+    box-shadow: 0 10px 25px rgba(0, 255, 0, 0.5); 
+}
+
+/* Estilos para el formulario dentro del modal */
+#edit-form {
+    display: flex;
+    flex-direction: column;
+    color: #fff; 
+}
+
+#edit-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+#edit-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 8px; 
+    border: 2px solid #333;
+    background-color: #222; 
+    color: #fff; 
+    border-radius: 8px; 
+    transition: border-color 0.3s ease; 
+}
+
+#edit-form input[type="text"]:focus {
+    border-color: #4caf50; 
+    outline: none; 
+}
+
+#edit-form button {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+#edit-form button:hover {
+    background-color: #4caf50; 
+    transform: scale(1.05); 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.1); 
+}
