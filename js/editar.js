@@ -6,7 +6,7 @@ function openEditForm(id) {
     // Supongamos que ya tienes una función llamada obtenerJuegoPorId(id) que hace esto
     async function obtenerJuegoPorId(id) {
         try {
-            const response = await fetch(`/games/${id}`);
+            const response = await fetch(`https://apigame-6xpe.onrender.com/games/${id}`);
             if (response.ok) {
                 const juego = await response.json();
                 return juego;
