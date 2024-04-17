@@ -40,7 +40,7 @@ async function agregarJuego() {
             precio
         };
 
-        const response = await fetch("/create", {
+        const response = await fetch("https://apigame-6xpe.onrender.com/create", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
