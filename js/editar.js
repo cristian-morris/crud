@@ -66,7 +66,7 @@ async function guardarCambios() {
             precio
         };
 
-        const response = await fetch(`/games/${gameId}`, {
+        const response = await fetch(`https://apigame-6xpe.onrender.com/games/${gameId}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
